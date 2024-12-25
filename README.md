@@ -34,16 +34,77 @@ Publish the website in the LocalHost.
     <title>Pharmacy Company</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-    <style>header {
-        background-image: url('Screenshot 2024-12-17 191121.png');
-        background-size: cover;
-        color: white;
-        text-align: center;
-        padding: 50px 20px;
-    }</style>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin : 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+        header {
+            background-image: url('Screenshot 2024-12-17 191121.png');
+            background-size: cover;
+            color: white;
+            text-align: center;
+            padding: 50px 20px;
+        }
+        header h1 {
+            font-size: 3rem;
+            margin: 0;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #343a40;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 15px 20px;
+            display: block;
+        }
+        nav a:hover {
+            background-color: #495057;
+        }
+        .container {
+            padding: 20px;
+        }
+        .menu-items {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .menu-item {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 10px;
+            text-align: center;
+            flex: 1 1 calc(25% - 40px);
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .menu-item img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        header {
+            background-image: url('Screenshot 2024-12-23 111641.png');
+            background-size: cover;
+            color: rgba(250, 250, 248, 0.959);
+            text-align: center;
+            padding: 50px 20px;
+        }
+        .container {
+            padding: 20px;
+        }
+    </style>
 </head>
 <body>
-
+    <header>
+        <h1>“Wherever the art of medicine is loved, there is also a love of humanity.”</h1>
+        <p>Your ultimate stop for Good Care</p>
+    </header>
     <!-- Navigation Bar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-dark">
         <div class="container-fluid">
@@ -82,40 +143,146 @@ Publish the website in the LocalHost.
         </ul>
     </div>
 
+    <section id="menu" class="container">
+        <h2>Menu</h2>
+        <div class="menu-items">
+            <div class="menu-item">
+                <img src="Screenshot 2024-12-25 152929.png" alt="Dish 1">
+                <p>Medicine</p>
+            </div>
+            <!-- Repeat for 12 items -->
+            <div class="menu-item">
+                <img src="Screenshot 2024-12-25 152939.png" alt="Dish 12">
+                <p>Lab Tests</p>
+            </div>
+            <div class="menu-item">
+                <img src="Screenshot 2024-12-25 152952.png" alt="Dish 12">
+                <p>Health Care</p>
+            </div>
+            <div class="menu-item">
+                <img src="Screenshot 2024-12-25 153000.png" alt="Dish 12">
+                <p>Health Blogs</p>
+            </div>
+            <div class="menu-item">
+                <img src="Screenshot 2024-12-25 153009.png" alt="Dish 12">
+                <p>Plus</p>
+            </div>
+            <div class="menu-item">
+                <img src="Screenshot 2024-12-25 153017.png" alt="Dish 12">
+                <p>Offers</p>
+            </div>
+            <div class="menu-item">
+                <img src="Screenshot 2024-12-25 153025.png" alt="Dish 12">
+                <p>Value Store</p>
+            </div>            
+        </div>
+    </section>
+
     <footer class="bg-light text-center py-3 mt-4">
         <div class="container">
-            <p>Designed and Developed by Austin Aro A</p>
+            <p>&copy; 2024 Pharmacy | Designed and Developed by Austin Aro A</p>
         </div>
     </footer>
 
 </body>
 </html>
+
 '''
  
  # about.html:
  '''<html>
+    <head>
+        <title>About</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+        <style>
+            body {
+            font-family: Arial, sans-serif;
+            margin : 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+        header h1 {
+            font-size: 3rem;
+            margin: 0;
+        }
+        header {
+            background-image: url('Screenshot 2024-12-25 160033.png');
+            background-size: cover;
+            color: rgba(250, 250, 248, 0.959);
+            text-align: center;
+            padding: 50px 20px;
+        }
+        footer {
+            background-color: #43494f;
+            color: rgb(238, 229, 229);
+            text-align: center;
+            padding: 10px 0;
+        }
+        .p {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 10px;
+            text-align: center;
+            flex: 1 1 calc(25% - 40px);
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+            
+        </style>
+    </head>
     <body>
-        <div class="row mt-4" id="about">
+        <div class="bg" id="bg">
+        <div class="row mt-4" id="about"  >
             <div class="col-md-12">
-                <h2>About Us</h2>
-                <p>We are dedicated to providing top-quality pharmaceutical products and exceptional customer service.
-                    Pharmacy is the science and practice of discovering, producing, preparing, dispensing, reviewing and monitoring medications, aiming to ensure the safe, effective, and affordable use of medicines. It is a miscellaneous science as it links health sciences with pharmaceutical sciences and natural sciences. The professional practice is becoming more clinically oriented as most of the drugs are now manufactured by pharmaceutical industries. Based on the setting, pharmacy practice is either classified as community or institutional pharmacy. Providing direct patient care in the community of institutional pharmacies is considered clinical pharmacy.
-                    The scope of pharmacy practice includes more traditional roles such as compounding and dispensing of medications. It also includes more modern services related to health care including clinical services, reviewing medications for safety and efficacy, and providing drug information with patient counselling. Pharmacists, therefore, are experts on drug therapy and are the primary health professionals who optimize the use of medication for the benefit of the patients.
-                    An establishment in which pharmacy (in the first sense) is practiced is called a pharmacy (this term is more common in the United States) or chemists (which is more common in Great Britain, though pharmacy is also used).[citation needed] In the United States and Canada, drugstores commonly sell medicines, as well as miscellaneous items such as confectionery, cosmetics, office supplies, toys, hair care products and magazines, and occasionally refreshments and groceries.
-                    In its investigation of herbal and chemical ingredients, the work of the apothecary may be regarded as a precursor of the modern sciences of chemistry and pharmacology, prior to the formulation of the scientific method.
-                </p>
+                <header>
+                <h2>About Us</h2></header>
+                <br>
+                <div class="p">
+                    <p>We are dedicated to providing top-quality pharmaceutical products and exceptional customer service.
+                        Pharmacy is the science and practice of discovering, producing, preparing, dispensing, reviewing and monitoring medications, aiming to ensure the safe, effective, and affordable use of medicines. It is a miscellaneous science as it links health sciences with pharmaceutical sciences and natural sciences. The professional practice is becoming more clinically oriented as most of the drugs are now manufactured by pharmaceutical industries. Based on the setting, pharmacy practice is either classified as community or institutional pharmacy. Providing direct patient care in the community of institutional pharmacies is considered clinical pharmacy.
+                        The scope of pharmacy practice includes more traditional roles such as compounding and dispensing of medications. It also includes more modern services related to health care including clinical services, reviewing medications for safety and efficacy, and providing drug information with patient counselling. Pharmacists, therefore, are experts on drug therapy and are the primary health professionals who optimize the use of medication for the benefit of the patients.
+                        An establishment in which pharmacy (in the first sense) is practiced is called a pharmacy (this term is more common in the United States) or chemists (which is more common in Great Britain, though pharmacy is also used).[citation needed] In the United States and Canada, drugstores commonly sell medicines, as well as miscellaneous items such as confectionery, cosmetics, office supplies, toys, hair care products and magazines, and occasionally refreshments and groceries.
+                        In its investigation of herbal and chemical ingredients, the work of the apothecary may be regarded as a precursor of the modern sciences of chemistry and pharmacology, prior to the formulation of the scientific method.
+                    </p>
+                </div>
             </div>
         </div>
-        <footer class="bg-light text-center py-3 mt-4">
+        <footer class=" text-center py-3 mt-4">
             <div class="container">
-                <p>Designed and Developed by Austin Aro A</p>
+                <p>&copy; 2024 Pharmacy | Designed and Developed by Austin Aro A</p>
             </div>
         </footer>
+    </div>
     </body>
 </html>'''
 
 # contact.html:
 '''<html>
+    <head>
+        <title>Contact</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+        <style>
+            footer {
+            background-color: #8c8e91;
+            color: rgb(238, 229, 229);
+            text-align: center;
+            padding: 200px 100;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            margin : 0;
+            padding: 0;
+            color: #333;
+            background-image: url('Screenshot 2024-12-23 105033.png');
+            background-size: cover;
+            color: rgba(250, 250, 248, 0.959);
+            text-align: center;
+            padding: 200px 50px;
+        }
+        </style>
+    </head>
     <body>
         <div class="row mt-4" id="contact">
             <div class="col-md-12">
@@ -123,9 +290,9 @@ Publish the website in the LocalHost.
                 <p>Email: contact@pharmacycompany.com | Phone: +123 456 7890</p>
             </div>
         </div>
-        <footer class="bg-light text-center py-3 mt-4">
+        <footer class="text-center py-3 mt-4">
             <div class="container">
-                <p>Designed and Developed by Austin Aro A</p>
+                <p>&copy; 2024 Pharmacy | Designed and Developed by Austin Aro A</p>
             </div>
         </footer>
     </body>
@@ -171,10 +338,10 @@ Publish the website in the LocalHost.
 
 ## OUTPUT:
 
-![alt text](<Screenshot 2024-12-22 153616.png>) 
-![alt text](<Screenshot 2024-12-22 153633.png>) 
-![alt text](<Screenshot 2024-12-22 153647.png>) 
-![alt text](<Screenshot 2024-12-22 153557.png>)
+![alt text](<Screenshot 2024-12-25 161558.png>)
+![alt text](<Screenshot 2024-12-25 161609.png>)
+![alt text](<Screenshot 2024-12-25 161624.png>) 
+![alt text](<Screenshot 2024-12-25 161719.png>) 
 
 ## RESULT:
 The Project for responsive web design using Bootstrap is completed successfully.
