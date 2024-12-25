@@ -340,7 +340,7 @@ Publish the website in the LocalHost.
 
 ![alt text](<Screenshot 2024-12-25 161558.png>)
 ![alt text](<Screenshot 2024-12-25 161609.png>)
-![alt text](<Screenshot 2024-12-25 161624.png>) 
+![alt text](<Screenshot 2024-12-25 163301.png>)
 ![alt text](<Screenshot 2024-12-25 161719.png>) 
 
 ## RESULT:

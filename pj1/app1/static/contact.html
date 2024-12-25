@@ -21,19 +21,29 @@
             text-align: center;
             padding: 200px 50px;
         }
+        .col {
+            border: 1px solid #ddd;
+            background-color:aliceblue;
+            color: black;
+            border-radius: 5px;
+            padding: 10px;
+            text-align: center;
+            flex: 1 1 calc(25% - 40px);
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
         </style>
     </head>
     <body>
-        <div class="row mt-4" id="contact">
-            <div class="col-md-12">
+        <div class="row" id="contact">
+            <div class="col">
                 <h2>Contact Us</h2>
                 <p>Email: contact@pharmacycompany.com | Phone: +123 456 7890</p>
             </div>
+            <footer class="text-center py-3 mt-4">
+                <div class="container">
+                    <p>&copy; 2024 Pharmacy | Designed and Developed by Austin Aro A</p>
+                </div>
+            </footer>
         </div>
-        <footer class="text-center py-3 mt-4">
-            <div class="container">
-                <p>&copy; 2024 Pharmacy | Designed and Developed by Austin Aro A</p>
-            </div>
-        </footer>
     </body>
 </html>
